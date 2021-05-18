@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <p>Test your strategy against the computer in this rock-paper-scissors game <span class="lie">illustrating basic artificial intelligence</span></p>
+    </header>
+    <section class='battlefield' >
+        
+        <section class='human'> 
+            
+            <img src="./img/blank.jpg" id='user-choice' alt="Rock">
+        </section>
+        <section class='vs'>
+            <div>
+                <h2>USER</h2>
+                <span id="user-point">0</span>
+            </div>
+            
+             vs 
+             <div>
+                <h2>COMPUTER</h2>
+                <span id="computer-point">0</span>
+            </div>
+            
+        </section>
+        <section class='computer'> 
+            <img src="./img/blank.jpg" id='computer-choice' alt="Paper">
+        </section>
+        
+
+    </section>
+
+    <section class="tools" id='tools'> 
+        <img src="./img/rock_full.jpg" data-id="rock" alt="Rock">
+        <img src="./img/paper_full.jpg" data-id="paper" alt="Paper">
+        <img src="./img/scissor_full.jpg" data-id="scissor" alt="Scissors">
+    </section>
+    <footer>
+        Made by <a href="https://github.com/toliboff">toliboff</a> 
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

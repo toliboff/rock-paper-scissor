@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color:#000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border:1px solid transparent;
+}
+header h1{
+    margin-bottom: 0;
+}
+
+.lie{
+    text-decoration: line-through;
+}
+
+.battlefield{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(231, 228, 228);
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.battlefield img{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.tools img{
+    border-radius: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.vs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:5em;
+}
+.vs div{
+    /* border: 1px solid red; */
+    width: 150px;
+}
+.vs h2{
+    font-size: 0.2em;
+}
+
+#user-point, #computer-point{
+    color:rgb(63, 63, 88);
+    border:1px solid rgb(57, 57, 97);
+    padding:5px 15px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+}
+
+footer{
+    background: rgb(26, 24, 24);
+    padding: 8px;
+    color:#fff;
+    margin-top: auto;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* display: block; */
+    /* width:100vw;
+    margin: 0; */
+}
+footer a{
+    color:#ccc;
+}
