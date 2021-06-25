@@ -18,7 +18,7 @@ function computerSelection(){
     return images[rndNumber-1];
 }
 
-function playRound(userSelection, computerSelection){
+function playwRound(userSelection, computerSelection){
     usersChoice.src=`./img/${userSelection}.jpg`;
     computerChoice.src=`./img/${computerSelection}.jpg`;
     console.log('user: ', userSelection);
